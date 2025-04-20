@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (form) {
       form.addEventListener("submit", function (e) {
         e.preventDefault();
-        alert("Message sent successfully!");
+      //  alert("Message sent successfully!");
       });
     }
   
