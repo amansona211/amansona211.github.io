@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Sona | Full-Stack Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Aman Sona</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills-projects-container">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="toggle-theme" class="toggle-btn">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="profile-container">
+        <img src="C:\Users\Amanson_Xona\Desktop\port\amanpic.jpeg" alt="Aman Sona" class="profile-photo" />
+        <h2>AMAN SONA</h2>
+        <h4>Full-Stack Developer</h4>
+        <p>
+          I am Aman Sona, a dedicated full-stack developer specializing in crafting dynamic and responsive web applications.
+          With hands-on experience in front-end technologies like HTML, CSS, JavaScript, and React, along with back-end
+          expertise in Node.js and database systems, I bring a holistic approach to building scalable digital solutions.
+          Passionate about clean code, elegant UI/UX, and continuous learning, I strive to turn ideas into impactful products.
+        </p>
+      </div>
+    </section>
+
+    <section class="tab-intro">
+      <h2>Explore My Work</h2>
+      <p>Below are categorized sections showcasing my technical skills, mobile apps, and web applications.</p>
+      <div class="tab-buttons">
+        <button class="tab-button active" data-target="skills">🧠 Skills</button>
+        <button class="tab-button" data-target="mobile-apps">📱 Mobile Apps</button>
+        <button class="tab-button" data-target="web-apps">💻 Web Apps</button>
+      </div>
+    </section>
+
+    <section id="skills-projects-container">
+      <div id="skills" class="tab-content active">
+        <h2>🧠 Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+
+      <div id="mobile-apps" class="tab-content">
+        <h2>📱 Mobile Applications</h2>
+        <div class="projects" id="mobile-projects-container"></div>
+      </div>
+
+      <div id="web-apps" class="tab-content">
+        <h2>💻 Web Applications</h2>
+        <div class="projects" id="web-projects-container"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form id="contact-form" class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p id="current-time"></p>
+    <p>Contact: Amansona211@email.com | Phone: 8486486671</p>
+  </footer>
+</body>
+</html>
